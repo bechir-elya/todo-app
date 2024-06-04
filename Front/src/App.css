@@ -1,0 +1,519 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+
+.links a {
+  margin-right: 3%;
+  padding: 1%;
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  color: #1979a9;
+  font-weight: bold
+}
+
+.userName {
+  margin-bottom: 0;
+  margin-right: 2%;
+}
+
+.userName b {
+  color: #1e81b0;
+}
+
+.profilePic {
+  font-size: 30px;
+  width: 8%;
+}
+
+.profilePic img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/*HEADER*/
+
+
+/*HOMEPAGE*/
+
+.homePage {
+  background-color: #bcd6d6;
+  padding: 11.9% 0
+}
+
+.homePage img {
+  border-radius: 10px;
+  width: 40%;
+}
+
+section {
+  width: 35%;
+}
+
+.icons {
+  font-size: 22px;
+  color: #2563eb;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+
+.or {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.loginForm .form-control {
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
+.loginForm .form-check {
+  margin-bottom: 3%;
+}
+
+.loginForm .btn.btn-primary {
+  margin-bottom: 2%;
+}
+
+.loginForm a {
+  text-decoration: none;
+  color: #d55042;
+}
+
+
+/*HOMEPAGE*/
+
+
+
+
+/*REGISTER PAGE*/
+
+.registerPage {
+  background-color: #bcd6d6;
+  padding: 12% 0
+}
+
+.registerPage img {
+  width: 40%;
+}
+
+
+.registerForm .form-control {
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
+.registerForm .btn.btn-primary {
+  width: 100%;
+  padding: 1%;
+  margin-bottom: 3%;
+}
+
+.registerForm span {
+  font-weight: 500;
+  color: #d55042;
+}
+
+.registerPage button {
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 10px;
+  border: none;
+}
+
+.registerPage button:nth-child(1) {
+  background-color: white;
+}
+
+.registerPage button:nth-child(2) {
+  background-color: #3b5998;
+  color: white;
+}
+
+.registerPage button:nth-child(3) {
+  background-color: black;
+  color: white;
+}
+
+.registerPage button:nth-child(4) {
+  background-color: #2563eb;
+  color: white;
+}
+
+.googleIcon {
+  color: #d55042;
+  margin-right: 1%;
+}
+
+.facebookIcon {
+  margin-right: 1%;  
+}
+
+.xIcon {
+  margin-right: 1%;
+}
+
+.linkedinIcon {
+  margin-right: 1%;
+}
+
+
+
+/*REGISTER PAGE*/
+
+
+
+/*TODO PAGE*/
+
+.todoPage {
+  background-color: #bcd6d6;
+  padding-top: 2%;
+  padding-bottom: 29.1%;
+}
+
+.addTask .form-control {
+  margin-bottom: 3%;
+}
+
+.addTask .btn.btn-primary {
+  display: block;
+  margin: auto;
+  width: 15%;
+}
+
+.todoSection {
+  margin-left: 10%;
+}
+
+.todoList {
+  background-color: white;
+  border-radius: 10px;
+  padding: 3%;
+}
+
+
+.todoDiv {
+  background-color: #cbd5e1;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px #dedede;
+}
+
+.todoDiv p {
+  width: 80%;
+}
+
+.todoDiv .form-check-input {
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.todoDiv .trash {
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.taskStatus {
+  background-color: #94a3b8;
+  margin-top: 3%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.taskStatus button {
+  border: none;
+  background-color: #94a3b8;
+  padding: 1%;
+}
+
+.taskStatus button:hover {
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0 5px 5px #687382;
+}
+
+
+.dateOfCreation {
+  font-style: italic;
+  font-weight: 200;
+  color: grey;
+  margin-left: 10%;
+}
+
+/*TODO PAGE*/
+
+
+/*FORGOT PASSWORD*/
+
+.forgotPasswordPage {
+  background-color: #bcd6d6;
+  padding-top: 2%;
+  padding-bottom: 32%;
+}
+
+.passForm {
+  width: 50%;
+  margin: auto;
+}
+
+
+.linkMessage {
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #1979a9;
+}
+
+
+.errorMessage {
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #1979a9;
+}
+
+
+
+/*FORGOT PASSWORD*/
+
+
+
+/*RESET PASSWORD*/
+
+.resetPasswordPage {
+  background-color: #bcd6d6;
+  padding-top: 2%;
+  padding-bottom: 32%;
+}
+
+/*RESET PASSWORD*/
+
+
+
+/*PROFILE PAGE*/
+
+.profilePage {
+  background-color: #bcd6d6;
+  padding-top: 5%;
+  padding-bottom: 14.5%;
+}
+
+.colForm.col {
+  text-align: left;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #687382;
+}
+
+.colForm.col .form-control {
+  margin-bottom: 3%;
+}
+
+.colForm.col h3, h5 {
+  margin-bottom: 3%;
+}
+
+.colForm.col .picUpload {
+  margin-bottom: 4%;
+}
+
+
+.avatar img {
+  width: 70%;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #687382;
+}
+
+/*PROFILE PAGE*/
+
+
+/*DASHBOARD*/
+
+.colMenu {
+  background-color: #403e40;
+  padding: 2%;
+}
+
+.menuLinks {
+  margin-bottom: 5%;
+  padding: 1%;
+}
+
+
+.menuLinks a {
+  color: #f0eff2;
+  text-decoration: none;
+}
+
+.menuIcons {
+  margin-right: 1%;
+  font-size: 25px;
+}
+
+.colDashboard {
+  padding-left: 2%;
+}
+
+
+.tasksStatusDiv {
+  background-color: rgba(128, 128, 128, 0.192);
+  padding: 3%;
+  width: 80%;
+  border-top: 5px solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.tasksStatusDiv h5 {
+  margin-bottom: 25%;
+}
+
+
+.taskCount {
+  margin-bottom: 0;
+}
+
+
+.tasksOverview {
+  border-top: 5px solid;
+  margin-top: 2%;
+  margin-right: 5.2%;
+  margin-left: 1%;
+  background-color: rgba(128, 128, 128, 0.192);
+}
+
+.completionStatus {
+  border-top: 5px solid;
+  margin-top: 2%;
+  margin-left: 1%;
+  background-color: rgba(128, 128, 128, 0.192);
+}
+
+
+
+/*DASHBOARD*/
+
+
+
+/*RESPONSIVE PART*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .checkAndPassword {
+    flex-wrap: wrap;
+  }
+
+  .checkAndPassword a {
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+
+  .registerPage img {
+    display: none;
+  }
+
+  .registerForm {
+    width: 80%;
+  }
+
+  .forgotPasswordPage .passForm {
+    width: 50%;
+  }
+
+  .todoPage {
+    flex-wrap: wrap;
+  }
+
+  .addSection {
+    display: block;
+    width: 80%;
+    margin-bottom: 8%;
+  }
+
+  .todoSection {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+
+  .todoSection h3 {
+    text-align: center;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  .homePage img {
+    display: none;
+  }
+
+  .homePage section {
+    width: 80%;
+  }
+
+  .registerPage img {
+    display: none;
+  }
+
+  .registerForm {
+    width: 80%;
+  }
+
+  .forgotPasswordPage .passForm {
+    width: 50%;
+  }
+
+
+  .todoPage {
+    flex-wrap: wrap;
+  }
+
+  .addSection {
+    display: block;
+    width: 80%;
+    margin-bottom: 8%;
+  }
+
+  .todoSection {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+
+  .todoSection h3 {
+    text-align: center;
+  }
+
+}
+
+/*RESPONSIVE PART*/
+
+
+
+
