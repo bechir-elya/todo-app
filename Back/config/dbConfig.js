@@ -1,8 +1,11 @@
 import mongoose from "mongoose";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb+srv://bechirelya:5XoqBPIpcpok5IKk@bechircluster.r2qf9du.mongodb.net/todo-app');
+        await mongoose.connect(process.env.DB_URI);
         console.log('Connected');
     } catch (error) {
         console.log(error);
